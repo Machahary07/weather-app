@@ -1,0 +1,29 @@
+// Dark theme variables
+$bg: #1a1a1a;
+$card-bg: #2d2d2d;
+$text: #e6e6e6;
+
+body {
+  background: $bg;
+  color: $text;
+  min-height: 100vh;
+}
+
+.weather-card {
+  background: $card-bg;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin: 1rem 0;
+  
+  &__title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.search-bar {
+  input {
+    background: darken($card-bg, 5%);
+    // ... more styles
+  }
+}
